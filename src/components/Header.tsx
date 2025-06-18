@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useState, useEffect } from "react";
 
@@ -47,8 +48,14 @@ export default function Header() {
           {/* Logo */}
           <Link
             href="/"
-            className="font-mono text-xl font-bold text-slate-dark dark:text-mist hover:text-teal dark:hover:text-teal transition-colors"
+            className="flex gap-3 font-mono text-xl font-bold text-slate-dark dark:text-mist hover:text-teal dark:hover:text-teal transition-colors"
           >
+            <Image
+              alt="pulskeep logo"
+              src="/pulsekeep_icon.png"
+              width={30}
+              height={30}
+            />{" "}
             Pulsekeep
           </Link>
 
