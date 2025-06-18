@@ -12,7 +12,7 @@ export default function Footer() {
           </div>
 
           <div className="text-slate-400 text-sm">
-            Built by{" "}
+            A{" "}
             <Link
               href="https://raidguild.org"
               target="_blank"
@@ -20,7 +20,8 @@ export default function Footer() {
               className="text-teal-400 hover:text-teal-300 transition-colors"
             >
               Raid Guild
-            </Link>
+            </Link>{" "}
+            Campaign
           </div>
 
           <div className="flex items-center gap-6">
